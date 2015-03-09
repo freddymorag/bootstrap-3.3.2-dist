@@ -1,6 +1,41 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<!-- CSS STYLESHEET -->
+<link rel="../../stylesheet" href= "../../homepage.css">
+
+<!-- POPUP JAVASCRIPT -->
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=400,height=200,scrollbars=yes');
+return false;
+}
+//-->
+</SCRIPT>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
@@ -124,18 +159,25 @@ body {
 </head>
 
 <body>
+
+<div class="container">
 <div id="icon"> <a href="../../index-DW.html"> <img src="../../images/website logo copy.png" width="144" height="108" alt="logo" /> </a> </div>
 <div id="title">
   <p> AP Physics II </p>
   <p>Kinematics Survival Guide</p>
 </div>
+
+<div class="row">
 <!-- TemplateBeginEditable name="application-edit" -->
-<div id="apDiv1">Application</div>
+<div class= ".col-xs-4 .col-md-4 .col-lg-4" id="apDiv1">Application</div>
 <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="concept-edit" -->
-<div id="apDiv2">Concepts</div>
+<div class= ".col-xs-4 .col-md-4 .col-lg-4" id="apDiv2">Concepts</div>
 <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="conclusion-edit" -->
-<div id="apDiv3">Conclusion</div>
+<div class= ".col-xs-4 .col-md-4 .col-lg-4" id="apDiv3">Conclusion</div>
 <!-- TemplateEndEditable -->
+</div>
+
+
 <div id="Contact-Us">Contact Us</div>
 <div id="Contact-Mr-Lo">Contact Mr. Lo</div>
 <div id="FAQs"></div>
@@ -143,5 +185,7 @@ body {
 <div id="content"></div>
 <!-- TemplateEndEditable -->
 <div id="homepage-botton"> <a href="../../index-DW.html"> <img src="../../images/home.png" width="109" height="73" alt="home botton" /> </a> </div>
+
+</div>
 </body>
 </html>

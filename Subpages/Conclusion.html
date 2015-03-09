@@ -1,9 +1,44 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/subpage-tempelete.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="../../../Unnamed Site 2/Templates/subpage-tempelete.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<!-- CSS STYLESHEET -->
+<link rel="../../stylesheet" href= "file:///C|/Users/Work Account/Documents/GitHub/bootstrap-3.3.2-dist/homepage.css">
+
+<!-- POPUP JAVASCRIPT -->
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=400,height=200,scrollbars=yes');
+return false;
+}
+//-->
+</SCRIPT>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>Conclusion</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -25,11 +60,7 @@
 	z-index:2;
 }
 #apDiv1 {
-	position:absolute;
-	left:371px;
-	top:214px;
-	width:260px;
-	height:38px;
+
 	z-index:3;
 	text-align: center;
 	vertical-align: middle;
@@ -37,22 +68,15 @@
 	background-color: #FF9;
 }
 #apDiv2 {
-	position:absolute;
-	left:111px;
-	top:214px;
-	width:260px;
-	height:38px;
+
 	z-index:3;
 	text-align: center;
 	font-size: 24px;
 	background-color: #FF9;
 }
 #apDiv3 {
-	position:absolute;
-	left:631px;
-	top:214px;
-	width:260px;
-	height:38px;
+
+	
 	z-index:3;
 	text-align: center;
 	font-size: 24px;
@@ -67,11 +91,9 @@
 	z-index:4;
 }
 #homepage-botton {
-	position:absolute;
-	left:449px;
-	top:966px;
-	width:109px;
-	height:73px;
+
+	width:110px;
+	height:74px;
 	z-index:5;
 }
 #FAQ {
@@ -86,9 +108,8 @@
 	background-color: #09C;
 }
 #Contact-Us {
-	position:absolute;
-	left:145px;
-	top:1064px;
+	
+
 	width:140px;
 	height:52px;
 	text-align: center;
@@ -96,9 +117,7 @@
 	background-color: #09C;
 }
 #Contact-Mr-Lo {
-	position:absolute;
-	left:715px;
-	top:1065px;
+
 	width:140px;
 	height:52px;
 	text-align: center;
@@ -109,7 +128,7 @@ body,td,th {
 	font-family: "Comic Sans MS", cursive;
 }
 body {
-	background-image: url(file:///C|/Users/Work%20Account/Documents/GitHub/Physics-II-midterm/Images/BACKGROUNDPHYSICS.png);
+	background-image: url(file:///C|/Users/Work%20Account/Documents/GitHub/bootstrap-3.3.2-dist/images/BACKGROUNDPHYSICS.png);
 }
 #title {
 	font-size: 40px;
@@ -124,24 +143,38 @@ body {
 </head>
 
 <body>
-<div id="icon"> <a href="file:///C|/Users/Work%20Account/Documents/GitHub/Physics-II-midterm/index-DW.html"> <img src="file:///C|/Users/Work%20Account/Documents/GitHub/Physics-II-midterm/Images/website%20logo%20copy.png" width="144" height="108" alt="logo" /> </a> </div>
-<div id="title">
-  <p> AP Physics II </p>
-  <p>Kinematics Survival Guide</p>
-</div>
+
+<div class="container">
+
+<div class="page-header" > <a href="file:///C|/Users/Work Account/Documents/GitHub/bootstrap-3.3.2-dist/index-DW.html"> <img src="file:///C|/Users/Work Account/Documents/GitHub/bootstrap-3.3.2-dist/images/website logo copy.png" width="144" height="108" alt="logo" /> </a><span style="color: #13F542; font-size: 40px" >AP Physics II Kinematics Survival Guide</span></div>
+
+<div class="row">
 <!-- InstanceBeginEditable name="application-edit" -->
-<a href="Application.html"><div id="apDiv1">Application</div></div></a>
+<div class= "col-xs-4 col-md-4 col-lg-4"id="apDiv1"><a href="Application.html">Application</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="concept-edit" -->
-<a href="Concept.html"><div id="apDiv2">Concepts</div></a>
+<div class= "col-xs-4 col-md-4 col-lg-4"id="apDiv2"><a href="Concept.html">Concepts</div>
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="conclusion-edit" -->
-<div id="apDiv3"style=background-color:#09F>Conclusion</div>
+<div class= "col-xs-4 col-md-4 col-lg-4"id="apDiv3"style=background-color:#09F>Conclusion</div>
 <!-- InstanceEndEditable -->
-<div id="Contact-Us">Contact Us</div>
-<div id="Contact-Mr-Lo">Contact Mr. Lo</div>
-<div id="FAQs"></div>
+</div>
 <!-- InstanceBeginEditable name="content" -->
-<div id="content"></div>
+<div class="col-xs-12 col-md-12 col-lg-12" ></div>
 <!-- InstanceEndEditable -->
-<div id="homepage-botton"> <a href="file:///C|/Users/Work%20Account/Documents/GitHub/Physics-II-midterm/index-DW.html"> <img src="file:///C|/Users/Work%20Account/Documents/GitHub/Physics-II-midterm/Images/home.png" width="109" height="73" alt="home botton" /> </a> </div>
+
+
+<div class="row" style="align-content:center">
+<div class="col-xs-4 col-md-4 col-lg-4" id="Contact-Us">Contact Us</div>
+
+<div class="col-xs-4 col-md-4 col-lg-4" id="homepage-botton"> <a href="file:///C|/Users/Work Account/Documents/GitHub/bootstrap-3.3.2-dist/index-DW.html"> <img src="file:///C|/Users/Work Account/Documents/GitHub/bootstrap-3.3.2-dist/images/home.png" width="109" height="73" alt="home botton" /> </a> </div>
+
+<div class="col-xs-4 col-md-4 col-lg-4" id="Contact-Mr-Lo">Contact Mr. Lo</div>
+
+
+
+
+
+
+</div>
+</div>
 </body>
 <!-- InstanceEnd --></html>
