@@ -96,17 +96,14 @@ return false;
 	z-index:4;
 }
 #homepage-botton {
-	position:absolute;
-	left:419px;
-	top:632px;
-	width:109px;
+
+	
+
 	height:73px;
-	z-index:5;
+	
 }
 #FAQ {
-	position:absolute;
-	left:145px;
-	top:1065px;
+
 	width:140px;
 	height:52px;
 	z-index:6;
@@ -115,21 +112,19 @@ return false;
 	background-color: #09C;
 }
 #Contact-Us {
-	position:absolute;
-	left:1px;
-	top:783px;
-	width:140px;
-	height:52px;
+	
+	
+
+	height:50px;
 	text-align: center;
 	font-size: 18px;
 	background-color: #09C;
 }
 #Contact-Mr-Lo {
-	position:absolute;
-	left:660px;
-	top:759px;
-	width:140px;
-	height:52px;
+
+	
+
+	height:50px;
 	text-align: center;
 	font-size: 18px;
 	background-color: #09C;
@@ -156,12 +151,8 @@ body {
 
 <div class="container">
 <div class="page-header id="icon" > <a href="../index-DW.html"> <img src="../images/website logo copy.png" width="144" height="108" alt="logo" /> </a><font color="#0F0" size="20"> AP Physics II Kinematics Survival Guide</font>
-</div>
-<!-- TemplateBeginEditable name="content" -->
-<div class="col-xs-12 col-md-12 col-lg-12"id="content">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p></div>
-<!-- TemplateEndEditable -->
+</div> 
+
 
 
 <div class="row">
@@ -174,16 +165,30 @@ body {
 <!-- TemplateEndEditable -->
 </div>
 
+<!-- TemplateBeginEditable name="content" -->
+
+
+<div class="col-xs-12 col-md-12 col-lg-12">/div>
+<!-- TemplateEndEditable -->
+
+
+<div class= "col-xs-12 col-md-12 col-lg-12"> 
 <div class="row">
-<div id="Contact-Us">Contact Us</div> 
+<div class= "col-xs-4 col-md-4 col-lg-4" id="Contact-Us">Contact Us</div> 
 
-<div id="Contact-Mr-Lo">Contact Mr. Lo</div> 
+<div class= "col-xs-4 col-md-4 col-lg-4"  id="homepage-botton"> <div> 
+  <div align="center"><a href="../index-DW.html"> <img src="../images/home.png" width="109" height="73" alt="home botton" /> </a></div>
+</div> 
+  </div> 
 
-
- <div id="homepage-botton"> <a href="../index-DW.html"> <img src="../images/home.png" width="109" height="73" alt="home botton" /> </a> </div> 
-
+<div class= "col-xs-4 col-md-4 col-lg-4"  id="Contact-Mr-Lo">Contact Mr. Lo</div> 
 
 </div>
+
+ 
+
+</div>
+
 </div>
 </body>
 </html>
