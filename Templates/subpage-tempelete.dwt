@@ -154,26 +154,27 @@ body {
 </div> 
 
 
-
-<div class="row">
-<!-- TemplateBeginEditable name="application-edit" -->
-<div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv1">Application</div>
-<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="concept-edit" -->
-<div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv2">Concepts</div>
-<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="conclusion-edit" -->
-<div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv3">Conclusion</div>
-<!-- TemplateEndEditable -->
+<div >
+<div class="row" align="center" >
+  <div ><!-- TemplateBeginEditable name="application-edit" -->
+    <div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv1">Application</div>
+    <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="concept-edit" -->
+      <div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv2">Concepts</div>
+      <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="conclusion-edit" -->
+        <div class= "col-xs-4 col-md-4 col-lg-4" id="apDiv3">Conclusion</div>
+      <!-- TemplateEndEditable --></div>
 </div>
-
+</div>
 <!-- TemplateBeginEditable name="content" -->
 
 
 <div class="col-xs-12 col-md-12 col-lg-12">/div>
 <!-- TemplateEndEditable -->
 
-
-<div class= "col-xs-12 col-md-12 col-lg-12"> 
+ 
+<div class= "col-xs-12 col-md-12 col-lg-12"><br /><br /> 
 <div class="row">
+
 <div class= "col-xs-4 col-md-4 col-lg-4" id="Contact-Us">Contact Us</div> 
 
 <div class= "col-xs-4 col-md-4 col-lg-4"  id="homepage-botton"> <div> 
